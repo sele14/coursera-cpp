@@ -1,4 +1,6 @@
 
+# Week 1: Classes
+
 ## Classes in C++
 - can create user-defined types
 - can associate data and related functionality into a single object
@@ -23,7 +25,7 @@
 ### ```iostream```
 - lets us use things like `cout` and `endl`
 
-### Week 2: Memory
+# Week 2: Memory
 - In C++, the programmer has control ove the memory and lifecycle of every variable we create
 - The variable lives in stack memory by default
 - Every **variable** has:
@@ -33,4 +35,8 @@
   - A location in memory (memory address)
 ```int primeNumber = 7;```
 - Get the variables memory address by using `&` operator
-- 
+```c++
+    int val = 5;
+    // print memory address of variable
+    cout << &val << endl;
+```

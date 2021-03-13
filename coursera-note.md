@@ -22,5 +22,15 @@
 
 ### ```iostream```
 - lets us use things like `cout` and `endl`
-- 
 
+### Week 2: Memory
+- In C++, the programmer has control ove the memory and lifecycle of every variable we create
+- The variable lives in stack memory by default
+- Every **variable** has:
+  - A name
+  - A type
+  - A value
+  - A location in memory (memory address)
+```int primeNumber = 7;```
+- Get the variables memory address by using `&` operator
+- 

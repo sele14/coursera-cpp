@@ -1,0 +1,3 @@
+C:/Users/eirik/Dropbox/Coding/C++/coursera_OOP_cpp/cmake-build-debug/CMakeFiles/coursera_OOP_cpp.dir
+C:/Users/eirik/Dropbox/Coding/C++/coursera_OOP_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/eirik/Dropbox/Coding/C++/coursera_OOP_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

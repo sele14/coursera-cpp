@@ -40,3 +40,32 @@
     // print memory address of variable
     cout << &val << endl;
 ```
+- returns the stack memory address
+- **Stack memory** is the default memory in C++
+- Is associated with the current function and the lifecycle of the memory is equal to the functions runtime
+  - I.e. as long as the function runs, the variables are stored in memory until it's no longer running
+- Stack memory starts at the top; high memory
+  - so the variable that is allocated memory first will have a higher memory address, and so on.
+
+### Pointers:
+- a variable that stores the memory address of the data (not the data itself)
+- a level of indirection from the data
+  - follow the pointer and it leads us to the memory address
+- in C++ a pointer is defined by adding `*` to the type of the variable
+  ```C++
+  int * p = &num;
+  ```
+- tells us where `num` is stored in memory
+
+### Dereference Operator:
+- Given a pointer, get the value
+- Useful if we have the pointer, but want to get the value
+```c++
+  int num = 7; // a variable with value 7
+  int *p = &num; // a pointer (p) to num's address in memory
+  int value_in_num = *p;
+  *p = 42; // change the value of num from 7 to 42
+```
+
+
+
